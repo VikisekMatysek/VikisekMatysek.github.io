@@ -3,28 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
+.logo{
+    display: flex;
+    align-items: flex-start;
+    height:0;
+    width: auto;
+}
 h1{
-    display: block;
+    display: flex;
     font-size: 60px;
     color: rgb(255, 255, 255);
     font-weight: bold;
     font-family: arial;
     background:rgb(35, 35, 35);
-    text-align: center;
+    justify-content: center;
     padding:20px;
     
 }
 nav{
     background-color: rgb(68, 68, 68);
 }
-nav ul{
-    width: 550px;
-    margin: 0 auto;
-    padding: 0;
-    height: 50px;
-    display: flex;
-    gap: 30px;
+nav ul {
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 100px;
 }
+
 nav ul li{
     width: 160px;
     list-style-type: none;
@@ -37,8 +45,11 @@ nav ul li a{
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: 25px;
+    white-space: nowrap;
     margin: 0 auto;
+    padding: 0 15px;
     font-weight: bold;
+    text-align: center;
 }
 nav ul li a:hover{
     border-bottom: 2px solid black;
@@ -48,17 +59,30 @@ nav ul li a:hover{
 body{
     background: rgb(77, 80, 83);
 }
+.fotky{
+       float: left;
+       width: 33.33%;
+       padding: 5px;
+ 
+}
+.images ::after{
+    content: '';
+    display: table;
+    clear:both;
+}
+.brawl{
+    margin-left:225px;
+}
 p{
     text-align: center;
-    margin: top 15px;
-    margin-bottom: 10px;
-    color:rgb(252, 252, 252);
-    margin-top: 10px;
+    list-style-position: inside;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
 }
 
-.images{
-        border-radius: 50px;
-}
 
 
     
