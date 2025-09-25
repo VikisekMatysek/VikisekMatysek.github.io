@@ -25,11 +25,11 @@ nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  gap: 100px;
+  gap: 120px;
 }
 
 nav ul li{
-    width: 160px;
+    width: 300px;
     list-style-type: none;
     float: left;
     text-align: center;
@@ -44,7 +44,6 @@ nav ul li a{
     margin: 0 auto;
     padding: 0 15px;
     font-weight: bold;
-    text-align: center;
 }
 nav ul li a:hover{
     border-bottom: 2px solid black;
