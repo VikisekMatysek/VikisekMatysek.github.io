@@ -20,8 +20,7 @@ nav{
 }
 nav ul {
   display: flex;
-  justify-content: center; 
-  align-items: center;    
+  justify-content: center;    
   list-style: none;
   margin: 0;
   padding: 0;
@@ -57,24 +56,21 @@ body{
        float: left;
        width: 33.33%;
        padding: 5px;
- 
+
 }
-.images ::after{
-    content: '';
-    display: table;
-    clear:both;
+.fotky img {
+    border-radius: 20px;
 }
-.brawl{
-    margin-left:225px;
-}
-p{
-    text-align: center;
-    list-style-position: inside;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    color: white;
-    font-family:'Times New Roman', Times, serif;
-    font-size: 18px;
+
+.text {
+    background-color: rgb(179, 177, 177);
+    max-width: 600px;
+    border-radius: 60px;
+    box-shadow: rgba(0, 0, 0, 0.35)
+                     0px 5px 15px;
+    margin: 30px auto 30px auto;
+    padding: 10px 30px;
+    text-align: left;
 }
 
 
