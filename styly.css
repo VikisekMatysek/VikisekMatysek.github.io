@@ -49,6 +49,7 @@ nav ul li a:hover {
   background: #ffd633;         
   transform: translateY(-3px); 
   box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+  cursor: pointer;
 }
 
 
@@ -123,6 +124,7 @@ nav ul li a:hover {
   border-radius: 10px;
   box-shadow: 0 3px 8px rgba(0,0,0,0.4);
   transition: 0.3s;
+  cursor: pointer;
 }
 
 
