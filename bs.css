@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -9,6 +8,51 @@ body {
   background: #4d5053;
   font-family: Arial, sans-serif;
   color: white;
+}
+
+.uvod h3{
+    color:#ffcc00;
+    font-size: 40px;
+    border-bottom: 2px solid #ffcc00;
+    margin-bottom: 20px;
+}
+.uvod ul li{
+    text-align: justify;
+}
+.mody h3{
+    color:#ffcc00;
+    font-size: 40px;
+    border-bottom: 2px solid #ffcc00;
+    margin: 20px 0 20px 0;
+}
+.mody ul li{
+    text-align: justify;
+}
+.mody ul li .bold{
+    font-weight: bold;
+    font-size: 20px;
+}
+.vzacnosti h3{
+    color:#ffcc00;
+    font-size: 40px;
+    border-bottom: 2px solid #ffcc00;
+    margin: 20px 0 20px 0;
+}
+.vzacnosti ul li{
+    text-align: justify;
+}
+.vzacnosti ul li .bold{
+    font-weight: bold;
+    font-size: 20px;
+}
+.zajimavosti h3{
+    color:#ffcc00;
+    font-size: 40px;
+    border-bottom: 2px solid #ffcc00;
+    margin: 20px 0 20px 0;
+}
+.zajimavosti ul li{
+    text-align: justify;
 }
 h1 {
   font-family: Verdana;
@@ -21,42 +65,10 @@ h1 {
   letter-spacing: 3px;
 }
 
-nav {
-  background-color: #5e5e5e;
-  padding: 20px 0;
-}
-
-nav ul {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-  gap: 30px;
-}
-
-nav ul li a {
-  display: inline-block;
-  padding: 12px 25px;
-  font-size: 18px;
-  font-weight: bold;
-  text-decoration: none;
-  color: #222;                 
-  background: #ffcc00;         
-  border-radius: 30px;         
-  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-  transition: all 0.5s ease;
-}
-
-nav ul li a:hover {
-  background: #ffd633;         
-  transform: translateY(-3px); 
-  box-shadow: 0 6px 15px rgba(0,0,0,0.4);
-  cursor: pointer;
-}
-
 
 .text {
   background: #3c3c3c;             
-  max-width: 700px;
+  max-width: 900px;
   margin: 30px auto;
   padding: 25px 35px;
   border-radius: 20px;             
@@ -66,18 +78,6 @@ nav ul li a:hover {
   color: #f0f0f0;                  
   position: relative;
 }
-.text:hover { 
-  box-shadow: 0 5px 25px #ffcc00;
-  transition: all 0.3s ease;
-}
-
-
-.text p::before {
-  content: "🎮 ";
-  font-size: 20px;
-  margin-right: 5px;
-}
-
 
 .images {
   display: flex;
@@ -147,14 +147,3 @@ nav ul li a:hover {
 .fotky:hover h3 {
   color: #222;
 }
-
-
-
-
-
-
-
-
-
-    
-
