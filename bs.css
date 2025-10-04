@@ -31,6 +31,7 @@ body {
 .mody ul li .bold{
     font-weight: bold;
     font-size: 20px;
+    text-decoration: underline;
 }
 .vzacnosti h3{
     color:#ffcc00;
@@ -44,6 +45,7 @@ body {
 .vzacnosti ul li .bold{
     font-weight: bold;
     font-size: 20px;
+    text-decoration: underline;
 }
 .zajimavosti h3{
     color:#ffcc00;
