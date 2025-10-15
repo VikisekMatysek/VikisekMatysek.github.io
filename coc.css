@@ -13,7 +13,7 @@ body {
 .uvod h3{
     color:#ffcc00;
     font-size: 40px;
-    text-shadow: 0 8px 20px rgba(0,0,0,0.5);
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
     margin-bottom: 20px;
 }
 
@@ -23,7 +23,7 @@ body {
 .mody h3{
     color:#ffcc00;
     font-size: 40px;
-    text-shadow: 0 8px 20px rgba(0,0,0,0.5);
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
     margin: 20px 0 20px 0;
 }
 .mody ul li{
@@ -33,7 +33,7 @@ body {
 .karty h3{
     color:#ffcc00;
     font-size: 40px;
-    text-shadow: 0 8px 20px rgba(0,0,0,0.5);
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
     margin: 20px 0 20px 0;
 }
 .karty ul li{
@@ -48,7 +48,7 @@ body {
 .budovy h3{
     color:#ffcc00;
     font-size: 40px;
-    text-shadow: 0 8px 20px rgba(0,0,0,0.5);
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
     margin: 20px 0 20px 0;
 }
 .budovy ul li{
@@ -62,7 +62,7 @@ body {
 .zdroje h3{
     color:#ffcc00;
     font-size: 40px;
-    text-shadow: 0 8px 20px rgba(0,0,0,0.5);
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
     margin: 20px 0 20px 0;
 }
 .zdroje ul li{

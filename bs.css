@@ -15,6 +15,7 @@ body {
     font-size: 40px;
     border-bottom: 2px solid #ffcc00;
     margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
 }
 .uvod ul li{
     text-align: justify;
@@ -24,6 +25,7 @@ body {
     font-size: 40px;
     border-bottom: 2px solid #ffcc00;
     margin: 20px 0 20px 0;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
 }
 .mody ul li{
     text-align: justify;
@@ -38,6 +40,7 @@ body {
     font-size: 40px;
     border-bottom: 2px solid #ffcc00;
     margin: 20px 0 20px 0;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
 }
 .vzacnosti ul li{
     text-align: justify;
@@ -52,6 +55,7 @@ body {
     font-size: 40px;
     border-bottom: 2px solid #ffcc00;
     margin: 20px 0 20px 0;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
 }
 .zajimavosti ul li{
     text-align: justify;
