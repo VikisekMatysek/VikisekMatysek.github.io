@@ -148,6 +148,90 @@ nav ul li a:hover {
   color: #222;
 }
 
+@media (max-width: 768px) {
+  h1 {
+    font-size: 40px;
+    padding: 15px;
+    letter-spacing: 1px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  nav ul li a {
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 25px;
+  }
+
+  .text {
+    width: 90%;
+    margin: 20px auto;
+    font-size: 16px;
+    padding: 20px;
+  }
+
+  .images {
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+
+  .fotky {
+    width: 90%;
+    max-width: 320px;
+  }
+
+  .fotky img {
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  nav ul li a {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  .text {
+    font-size: 15px;
+    padding: 15px;
+  }
+
+  .fotky h3 {
+    font-size: 20px;
+  }
+
+  .fotky p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 600px) {
+  nav ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav ul li a {
+    font-size: 0; 
+  }
+
+  nav ul li a i {
+    font-size: 22px; 
+    color: #222;     
+  }
+  nav ul li a:hover i {
+    color: #000;
+  }
+}
 
 
 
