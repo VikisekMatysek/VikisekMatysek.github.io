@@ -197,4 +197,14 @@ footer {
     padding: 40px 25px;
   }
 }
+.contact-links{
+  justify-content: center;
+
+}
+.test{
+  width: 100px;
+  height: 40px;
+
+}
+
 
