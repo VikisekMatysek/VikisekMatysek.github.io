@@ -173,30 +173,6 @@ footer {
   box-shadow: 0 0 12px rgba(16, 227, 250, 0.6);
 }
 
-@media (max-width: 768px) {
-  .hlavninadpis {
-    font-size: 42px;
-  }
-
-  .content {
-    flex-direction: column;
-    gap: 40px;
-    text-align: center;
-  }
-
-  .jmeno {
-    width: 80%;
-  }
-
-  .projekt-karta {
-    width: 90%;
-  }
-
-  .omne {
-    width: 90%;
-    padding: 40px 25px;
-  }
-}
 .contact-links{
   justify-content: center;
 
