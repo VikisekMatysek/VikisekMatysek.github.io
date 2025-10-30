@@ -143,6 +143,30 @@ header img:hover {
   font-size: 18px;
   text-shadow: 0 0 2px rgb(255, 255, 255);
 }
+.projekt-karta2 {
+  background: radial-gradient( rgba(2, 46, 91, 0.5));
+  border: 2px solid rgba(16, 227, 250, 0.6);
+  width: 65%;
+  margin: 0 auto 60px;
+  padding: 40px 30px;
+  border-radius: 25px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 0 25px rgba(16, 227, 250, 0.6);
+  transition: all 0.4s ease;
+}
+
+.projekt-karta2:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 40px rgba(16, 227, 250, 0.6);
+}
+.projekt-karta2 h3{
+  font-size: 23px;
+  text-shadow: 0 0 2.5px rgb(255, 255, 255);
+}
+.projekt-karta2 p{
+  font-size: 18px;
+  text-shadow: 0 0 2px rgb(255, 255, 255);
+}
 
 .tlacitko {
   display: inline-block;
